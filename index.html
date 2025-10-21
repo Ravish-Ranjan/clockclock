@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Clock-Clock</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="root">
+			<div class="colours">
+				<input
+					type="color"
+					value="#ffff00"
+					id="line"
+					title="Clock Colour"
+				/>
+				<input
+					type="color"
+					value="#111111"
+					id="bg"
+					title="background Colour"
+				/>
+			</div>
+			<button type="button" id="toggle-fullscreen">
+				<img
+					src="https://api.iconify.design/material-symbols:fullscreen-rounded.svg?color=%23888888"
+					alt=""
+				/>
+			</button>
+			<div class="number">
+				<div class="digit">
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+				</div>
+				<div class="digit">
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+				</div>
+			</div>
+			<div class="number">
+				<div class="digit">
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+				</div>
+				<div class="digit">
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+				</div>
+			</div>
+			<div class="number">
+				<div class="digit">
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+				</div>
+				<div class="digit">
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+					<div class="box">
+						<span class="line"></span><span class="line"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
