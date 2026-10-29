@@ -16,312 +16,59 @@ const angleMap = {
 function generateAngles(digit) {
 	switch (digit) {
 		case 0: {
-			return [
-				"dr",
-				"lr",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"dl",
-				"ud",
-				"ud",
-				"ud",
-				"ud",
-				"ud",
-				"ud",
-				"ud",
-				"ud",
-				"ud",
-				"ud",
-				"ur",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"lr",
-				"ul",
-			];
+			return "dr,lr,lr,dl,ud,dr,dl,ud,ud,ud,ud,ud,ud,ud,ud,ud,ud,ur,ul,ud,ur,lr,lr,ul".split(
+				",",
+			);
 		}
 		case 1: {
-			return [
-				"dr",
-				"lr",
-				"dl",
-				"rs",
-				"ur",
-				"dl",
-				"ud",
-				"rs",
-				"rs",
-				"ud",
-				"ud",
-				"rs",
-				"rs",
-				"ud",
-				"ud",
-				"rs",
-				"dr",
-				"ul",
-				"ur",
-				"dl",
-				"ur",
-				"lr",
-				"lr",
-				"ul",
-			];
+			return "dr,lr,dl,rs,ur,dl,ud,rs,rs,ud,ud,rs,rs,ud,ud,rs,dr,ul,ur,dl,ur,lr,lr,ul".split(
+				",",
+			);
 		}
 		case 2: {
-			return [
-				"dr",
-				"lr",
-				"lr",
-				"dl",
-				"ur",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"lr",
-				"ul",
-				"ud",
-				"ud",
-				"dr",
-				"lr",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"dl",
-				"ur",
-				"lr",
-				"lr",
-				"ul",
-			];
+			return "dr,lr,lr,dl,ur,lr,dl,ud,dr,lr,ul,ud,ud,dr,lr,ul,ud,ur,lr,dl,ur,lr,lr,ul".split(
+				",",
+			);
 		}
 		case 3: {
-			return [
-				"dr",
-				"lr",
-				"lr",
-				"dl",
-				"ur",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"lr",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"lr",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"lr",
-				"ul",
-			];
+			return "dr,lr,lr,dl,ur,lr,dl,ud,dr,lr,ul,ud,ur,lr,dl,ud,dr,lr,ul,ud,ur,lr,lr,ul".split(
+				",",
+			);
 		}
 		case 4: {
-			return [
-				"dr",
-				"dl",
-				"dr",
-				"dl",
-				"ud",
-				"ud",
-				"ud",
-				"ud",
-				"ud",
-				"ur",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"dl",
-				"ud",
-				"rs",
-				"rs",
-				"ud",
-				"ud",
-				"rs",
-				"rs",
-				"ur",
-				"ul",
-			];
+			return "dr,dl,dr,dl,ud,ud,ud,ud,ud,ur,ul,ud,ur,lr,dl,ud,rs,rs,ud,ud,rs,rs,ur,ul".split(
+				",",
+			);
 		}
 		case 5: {
-			return [
-				"dr",
-				"lr",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"lr",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"dl",
-				"ur",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"lr",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"lr",
-				"ul",
-			];
+			return "dr,lr,lr,dl,ud,dr,lr,ul,ud,ur,lr,dl,ur,lr,dl,ud,dr,lr,ul,ud,ur,lr,lr,ul".split(
+				",",
+			);
 		}
 		case 6: {
-			return [
-				"dr",
-				"lr",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"lr",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"dl",
-				"ud",
-				"ud",
-				"ur",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"lr",
-				"ul",
-			];
+			return "dr,lr,lr,dl,ud,dr,lr,ul,ud,ur,lr,dl,ud,dr,dl,ud,ud,ur,ul,ud,ur,lr,lr,ul".split(
+				",",
+			);
 		}
 		case 7: {
-			return [
-				"dr",
-				"lr",
-				"lr",
-				"dl",
-				"ur",
-				"lr",
-				"dl",
-				"ud",
-				"rs",
-				"rs",
-				"ud",
-				"ud",
-				"rs",
-				"rs",
-				"ud",
-				"ud",
-				"rs",
-				"rs",
-				"ud",
-				"ud",
-				"rs",
-				"rs",
-				"ur",
-				"ul",
-			];
+			return "dr,lr,lr,dl,ur,lr,dl,ud,rs,rs,ud,ud,rs,rs,ud,ud,rs,rs,ud,ud,rs,rs,ur,ul".split(
+				",",
+			);
 		}
 		case 8: {
-			return [
-				"dr",
-				"lr",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"dl",
-				"ud",
-				"ud",
-				"ur",
-				"ul",
-				"ud",
-				"ud",
-				"dr",
-				"dl",
-				"ud",
-				"ud",
-				"ur",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"lr",
-				"ul",
-			];
+			return "dr,lr,lr,dl,ud,dr,dl,ud,ud,ur,ul,ud,ud,dr,dl,ud,ud,ur,ul,ud,ur,lr,lr,ul".split(
+				",",
+			);
 		}
 		case 9: {
-			return [
-				"dr",
-				"lr",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"dl",
-				"ud",
-				"ud",
-				"ur",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"dl",
-				"ud",
-				"dr",
-				"lr",
-				"ul",
-				"ud",
-				"ur",
-				"lr",
-				"lr",
-				"ul",
-			];
+			return "dr,lr,lr,dl,ud,dr,dl,ud,ud,ur,ul,ud,ur,lr,dl,ud,dr,lr,ul,ud,ur,lr,lr,ul".split(
+				",",
+			);
 		}
 		default: {
-			return [
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-				"rs",
-			];
+			return "rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs,rs".split(
+				",",
+			);
 		}
 	}
 }
@@ -331,7 +78,7 @@ function setDigits(nums) {
 	for (let i = 0; i < 6; i++) {
 		const angleCodes = generateAngles(nums[i]);
 		const angles = angleCodes.map(
-			(angleCode) => angleMap[angleCode] || [135, 135]
+			(angleCode) => angleMap[angleCode] || [135, 135],
 		);
 		let j = 0;
 		for (const childBox of digits[i].children) {
@@ -371,14 +118,18 @@ if (config && config.bg && config.line) {
 	localStorage.removeItem("clock-clock");
 	localStorage.setItem(
 		"clock-clock",
-		JSON.stringify({ line: "#ffff00", bg: "#111111" })
+		JSON.stringify({ line: "#ffff00", bg: "#111111" }),
 	);
 }
 
 document.getElementById("toggle-fullscreen").addEventListener("click", () => {
 	if (!document.fullscreenElement) {
 		document.documentElement.requestFullscreen(); // full page
+		document.getElementById("line").style.display = "none";
+		document.getElementById("bg").style.display = "none";
 	} else {
+		document.getElementById("line").style.display = "inline";
+		document.getElementById("bg").style.display = "inline";
 		document.exitFullscreen();
 	}
 });
